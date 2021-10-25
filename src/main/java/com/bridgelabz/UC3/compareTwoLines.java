@@ -29,7 +29,7 @@ class LineCoOrdinates {
 
 public class compareTwoLines {
 
-    private static int compareLines(LineCoOrdinates result1, LineCoOrdinates result2) {
+    public static int compareLines(LineCoOrdinates result1, LineCoOrdinates result2) {
         return compare(result1.lengthOfLine, result2.lengthOfLine);
     }
 
