@@ -15,7 +15,7 @@ class LineCoOrdinates {
     }
 
     public LineCoOrdinates calculateLengthOfLine() {
-        this.lengthOfLine = Math.sqrt(Math.pow((this.x1-this.x2),2) + Math.pow((this.y1-this.y2),2));
+        lengthOfLine = Math.sqrt(Math.pow((this.x1-this.x2),2) + Math.pow((this.y1-this.y2),2));
         return this;
     }
 
